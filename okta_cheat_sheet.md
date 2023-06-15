@@ -8,5 +8,5 @@ appuser.preferredName != "" AND appuser.preferredName != null ? appuser.preferre
 Set a group rule to look for blank profile details
 
 ```
-user.outAttributeHere==null
+user.oktaAttributeHere==null
 ```
