@@ -11,6 +11,8 @@ Set a group rule to look for blank profile details
 user.oktaAttributeHere==null
 ```
 
+
+
 **API Endpoints**
 
 Singon Policies 
@@ -30,6 +32,8 @@ Get Policy rule:
 ```
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
 ```
+
+
 
 **Okta Workflows**
 
