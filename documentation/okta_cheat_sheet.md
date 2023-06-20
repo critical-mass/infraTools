@@ -25,9 +25,13 @@ GET Password Policices
 ```
 /api/v1/policies?type=PASSWORD
 ```
-Get Policy rule:
+GET Policy Rule:
 ```
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
+```
+GET Access Policies (Authentication Policies)
+```
+/api/v1/policies?type=ACCESS_POLICY
 ```
 <br/><br/> 
 
