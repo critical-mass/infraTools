@@ -10,11 +10,7 @@ Set a group rule to look for blank profile details
 ```
 user.oktaAttributeHere==null
 ```
-
-
-
-
-
+<br/><br/> 
 
 **API Endpoints**
 
@@ -39,22 +35,13 @@ Get Policy rule:
 ```
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
 ```
-
-
-
-
-
+<br/><br/> 
 
 **Okta Workflows**
 
 
 Webhooks: Need to save the flow before being able to access the endpoint
-
-
-
-
-
-
+<br/><br/> 
 **BambooHR (BHR)**
 
 Prestart interval: how far in the future the importer will look
