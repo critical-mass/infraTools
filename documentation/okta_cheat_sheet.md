@@ -29,6 +29,10 @@ MFA Enrollment Policies
 ```
 /api/v1/policies?type=OKTA_SIGN_ON
 ```
+Password Policices 
+```
+/api/v1/policies?type=PASSWORD
+```
 
 Get Policy rule:
 
