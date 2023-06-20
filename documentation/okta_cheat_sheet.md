@@ -13,7 +13,7 @@ user.oktaAttributeHere==null
 **API Endpoints**
 
 
-GET Singon Policies (Global Session Policy):
+GET Signon Policies (Global Session Policy):
 ```
 /api/v1/policies?type=OKTA_SIGN_ON
 ```
