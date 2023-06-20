@@ -10,3 +10,6 @@ Set a group rule to look for blank profile details
 ```
 user.oktaAttributeHere==null
 ```
+
+**Okta Workflows**
+Webhooks: Need to save the flow before being able to access the endpoint
