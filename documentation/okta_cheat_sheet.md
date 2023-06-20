@@ -21,7 +21,7 @@ GET MFA Enrollment Policies:
 ```
 /api/v1/policies?type=MFA_ENROLL
 ```
-GET Password Policices:
+GET Password Policies:
 ```
 /api/v1/policies?type=PASSWORD
 ```
