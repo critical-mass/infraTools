@@ -25,6 +25,11 @@ MFA Enrollment Policies
 /api/v1/policies?type=OKTA_SIGN_ON
 ```
 
+Get Policy rule:
+
+```
+/api/v1/policies/{{policyId}}/rules/{{ruleId}}
+```
 
 **Okta Workflows**
 
