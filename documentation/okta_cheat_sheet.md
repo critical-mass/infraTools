@@ -47,3 +47,4 @@ Webhooks: Need to save the flow before being able to access the endpoint
 **BambooHR (BHR)**
 
 Prestart interval: how far in the future the importer will look
+Preferred Name: nickname
