@@ -11,6 +11,19 @@ Set a group rule to look for blank profile details
 user.oktaAttributeHere==null
 ```
 
+**API Endpoints**
+
+Singon Policies 
+
+```
+/api/v1/policies?type=OKTA_SIGN_ON
+```
+
+MFA Enrollment Policies
+
+```
+/api/v1/policies?type=OKTA_SIGN_ON
+```
 
 
 **Okta Workflows**
