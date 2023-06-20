@@ -13,15 +13,15 @@ user.oktaAttributeHere==null
 **API Endpoints**
 
 
-GET Singon Policies (Global Session Policy)
+GET Singon Policies (Global Session Policy):
 ```
 /api/v1/policies?type=OKTA_SIGN_ON
 ```
-GET MFA Enrollment Policies
+GET MFA Enrollment Policies:
 ```
 /api/v1/policies?type=MFA_ENROLL
 ```
-GET Password Policices 
+GET Password Policices:
 ```
 /api/v1/policies?type=PASSWORD
 ```
@@ -29,7 +29,7 @@ GET Policy Rule:
 ```
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
 ```
-GET Access Policies (Authentication Policies)
+GET Access Policies (Authentication Policies):
 ```
 /api/v1/policies?type=ACCESS_POLICY
 ```
