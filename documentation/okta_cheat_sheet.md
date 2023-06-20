@@ -14,6 +14,8 @@ user.oktaAttributeHere==null
 
 
 
+
+
 **API Endpoints**
 
 Singon Policies 
@@ -37,10 +39,14 @@ Get Policy rule:
 
 
 
+
+
 **Okta Workflows**
 
 
 Webhooks: Need to save the flow before being able to access the endpoint
+
+
 
 
 
