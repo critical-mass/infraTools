@@ -37,6 +37,10 @@ POST Activate user (send email)
 ```
 /api/v1/users/{{userId}}/lifecycle/activate?sendEmail=true
 ```
+POST Re-Activate user (send email)
+```
+/api/v1/users/{{userId}}/lifecycle/reactivate?sendEmail=true
+```
 <br/><br/> 
 
 **Okta Workflows**
