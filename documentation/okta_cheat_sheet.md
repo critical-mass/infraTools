@@ -33,6 +33,10 @@ GET Policy Rule:
 ```
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
 ```
+POST Activate user (send email)
+```
+/api/v1/users/{{userId}}/lifecycle/activate?sendEmail=true
+```
 <br/><br/> 
 
 **Okta Workflows**
