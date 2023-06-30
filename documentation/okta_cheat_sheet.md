@@ -16,7 +16,7 @@ user.oktaAttributeHere==null
 ```
 Set multiple variables for a group rule
 ```
-Arrays.contains({"SDR", "sdr", "Sales Development Rep Manager", "SDR Manager"}, user.title)
+Arrays.contains({"attribute0", "attribute1", "attribute2"}, user.attribute)
 ```
 <br/><br/> 
 
