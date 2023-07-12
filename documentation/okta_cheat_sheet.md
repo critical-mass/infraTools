@@ -4,6 +4,14 @@ This is a collection of helpful Okta info for doing development work
 <br><br/>
 
 
+**Index**
+
+<br><br/>
+Federated Authentication:
+With federated authentication, users log in one time to access multiple apps. For example, you log in to your Salesforce org and from there can access your company’s benefits app, Workday.
+<br><br/>
+
+
 **Okta expression language**
 
 Leverage preferred name over first name while available
