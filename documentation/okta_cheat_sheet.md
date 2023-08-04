@@ -14,9 +14,9 @@ With federated authentication, users log in one time to access multiple apps. Fo
 
 **Okta expression language**
 
-Leverage preferred name over first name while available
+Leverage nickname name over first name while available
 ```
-appuser.preferredName != "" AND appuser.preferredName != null ? appuser.preferredName + " " + appuser.lastName : appuser.firstName + " " + appuser.lastName
+user.nickName != "" AND user.nickName != null ? user.nickName + " " + appuser.lastName : appuser.firstName + " " + appuser.lastName
 ```
 Set a group rule to look for blank profile details
 ```
