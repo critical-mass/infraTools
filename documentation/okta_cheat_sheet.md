@@ -16,7 +16,7 @@ With federated authentication, users log in one time to access multiple apps. Fo
 
 Leverage nickname name over first name while available
 ```
-user.nickName != "" AND user.nickName != null ? user.nickName + " " + appuser.lastName : appuser.firstName + " " + appuser.lastName
+user.nickName != "" AND user.nickName != null ? user.nickName + " " + user.lastName : user.firstName + " " + user.lastName
 ```
 Set a group rule to look for blank profile details
 ```
