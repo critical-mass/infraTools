@@ -30,6 +30,12 @@ Set a group rule to look for blank profile details
 user.oktaAttributeHere==null
 ```
 
+Set a group rule to require two attributes to be met for pass
+
+```
+String.stringContains(user.attribute, "{attribute_here}") AND user.attribute=="{attribute_here}"
+```
+
 Set multiple variables for a group rule
 
 ```
