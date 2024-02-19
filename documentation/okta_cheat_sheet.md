@@ -7,7 +7,7 @@ This is a collection of helpful Okta info for doing development work
 
 <br><br/>
 Federated Authentication:
-With federated authentication, users log in one time to access multiple apps. For example, you log in to your Salesforce org and from there can access your company’s benefits app, Workday.
+With federated authentication, users log in one time to access multiple apps. For example, you log in to your Okta org and from there can access your company’s benefits app, Workday.
 <br><br/>
 
 **Okta expression language**
