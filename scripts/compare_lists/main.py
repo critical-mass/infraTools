@@ -1,7 +1,5 @@
 import csv
 
-#list1 is active users in okta 
-#list2 is bhr users 
 
 def read_column(csv_file):
     with open(csv_file, 'r') as file:
