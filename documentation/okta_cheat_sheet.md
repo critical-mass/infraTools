@@ -76,6 +76,12 @@ GET Policy Rule:
 /api/v1/policies/{{policyId}}/rules/{{ruleId}}
 ```
 
+Get Authenticators (Available Factors)
+
+```
+/api/v1/authenticators
+```
+
 POST Activate user (send email)
 
 ```
