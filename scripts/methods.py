@@ -38,11 +38,23 @@ class okta:
 
     def create_group(base_url, group_name, description, headers):
         url = f"{base_url}/api/v1/groups/"
-        payload = f{
+        payload = {
             "profile": {
-                "description": description
+                "description": description,
                 "name": group_name
             }
         }
         response = requests.post(url, headers=headers, data=payload)
         return(response)
+
+   def create_user(base_url, firstName, lastName, email, login, headers):
+       url = f"{base_url}/api/v1/users
+       payload = {
+           "profile": {
+               "firstName": firstName,
+               "lastName": lastName,
+               "email": email,
+               "login": login,
+           }
+       }
+       response = requests.post(url=url, headers=headers, data=payload)
