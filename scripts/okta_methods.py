@@ -15,26 +15,38 @@ class okta:
     def read_user(user_id, base_url, headers):
         url = f"{base_url}/api/v1/users/{user_id}"
         payload = {}
-        response = requests.get(url, headers=headers, data=payload)
-        return(response)
+        try:
+            response = requests.get(url, headers=headers, data=payload)
+            return(response)
+        except requests.exceptions.RequestException as e:
+			print(f"An error occured: {e}")
 
     def activate_user(user_id, base_url, headers):
         url = f"{base_url}/api/v1/users/{user_id}/lifecycle/activate?sendEmail=true"
         payload = {}
-        response = requests.post(url, headers=headers, data=payload)
-        return(response)
+        try:
+            response = requests.post(url, headers=headers, data=payload)
+            return(response)
+        except requests.exceptions.RequestException as e:
+            print(f"An error occured: {e}")
 
     def deactivate_user(user_id, base_url, headers):
         url = f"{base_url}/api/v1/users/{user_id}/lifecycle/deactivate"
         payload = {}
-        response = requests.post(url, headers=headers, data=payload)
-        return(response)
+        try:
+            response = requests.post(url, headers=headers, data=payload)
+            return(response)
+        except requests.exceptions.RequestException as e:
+            print(f"An error occured: {e}")
 
     def add_user_to_group(user_id, base_url, headers, group_id):
         url = f"{base_url}/api/v1/groups/{group_id}/users/{user_id}"
         payload = {}
-        response = requests.post(url, headers=headers, data=payload)
-        return(response)
+        try:
+            response = requests.post(url, headers=headers, data=payload)
+            return(response)
+        except requests.exceptions.RequestException as e:
+            print(f"An error occured: {e}")
 
     def create_group(base_url, group_name, description, headers):
         url = f"{base_url}/api/v1/groups/"
@@ -44,8 +56,11 @@ class okta:
                 "name": group_name
             }
         }
-        response = requests.post(url, headers=headers, data=payload)
-        return(response)
+        try:
+            response = requests.post(url, headers=headers, data=payload)
+            return(response)
+        except requests.exceptions.RequestException as e:
+            print(f"An error occured: {e}")
 
    def create_user(base_url, firstName, lastName, email, login, headers):
        url = f"{base_url}/api/v1/users
@@ -57,5 +72,9 @@ class okta:
                "login": login,
            }
        }
-       response = requests.post(url=url, headers=headers, data=payload)
-       return(response)
+       try:
+           response = requests.post(url=url, headers=headers, data=payload)
+           return(response)
+       except requests.exceptions.RequestException as e:
+           print(f"An error occured: {e}")
+
