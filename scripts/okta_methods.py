@@ -9,7 +9,7 @@ class okta:
         self.headers = headers
         self.group_id = group_id
         self.description = description
-        self.create_group = group_name
+        self.group_name = group_name
 
 
     def read_user(user_id, base_url, headers):
