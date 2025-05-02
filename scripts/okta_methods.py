@@ -3,7 +3,7 @@ import requests
 
 
 class okta:
-    def __init__(self, user_id, base_url, headers, group_id):
+    def __init__(self, user_id, base_url, headers, group_id, description, group_name):
         self.user_id = user_id
         self.base_url = base_url
         self.headers = headers
