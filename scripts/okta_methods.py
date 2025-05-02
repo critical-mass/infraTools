@@ -19,7 +19,7 @@ class okta:
             response = requests.get(url, headers=headers, data=payload)
             return(response)
         except requests.exceptions.RequestException as e:
-			print(f"An error occured: {e}")
+            print(f"An error occured: {e}")
 
     def activate_user(user_id, base_url, headers):
         url = f"{base_url}/api/v1/users/{user_id}/lifecycle/activate?sendEmail=true"
